@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BackGround Color</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <div class="container">
+        <h1>Change Theme Color</h1>
+    </div>
+    <div class="container btn">
+        <p id="clr1" class="name">Saddlebrown</p>
+        <p id="clr2" class="name">Burlywood</p>
+        <p id="clr3" class="name">Orangered</p>
+        <p id="clr4" class="name">Yellowgreen</p>
+        <p id="clr5" class="name">RESET</p>
+    </div>
+</main>
+
+
+<script>
+    document.getElementById('clr1').addEventListener('click',function(){
+        document.body.style.backgroundColor = 'Saddlebrown';
+    })
+    document.getElementById('clr2').addEventListener('click',function(){
+        document.body.style.backgroundColor = 'Burlywood';
+    })
+    document.getElementById('clr3').addEventListener('click',function(){
+        document.body.style.backgroundColor = 'Orangered';
+    })
+    document.getElementById('clr4').addEventListener('click',function(){
+        document.body.style.backgroundColor = 'Yellowgreen';
+    })
+    document.getElementById('clr5').addEventListener('click',function(){
+        document.body.style.backgroundColor = 'lightgoldenrodyellow';
+    })
+</script>
+    
+</body>
+</html>
